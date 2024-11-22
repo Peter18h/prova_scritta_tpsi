@@ -1,0 +1,145 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+.nav {
+    text-align: center;
+}
+
+.nav li {
+    font-size: 20px;            
+    font-weight: bold;          
+    margin-left: 40px;          
+    margin-right: 40px;         
+    display: inline;            
+}
+
+
+.nav li a {
+    text-decoration: none;      
+    color: inherit;             
+}
+.nav {
+    background-color: #FFD700;  
+    padding-top: 2px;           
+    padding-bottom: 2px;        
+    border: 1px solid #e7e7e7;  
+}
+
+
+.nav li a {
+    color: black;               
+}
+.main {
+    width: 900px;              
+    height: auto;               
+    margin-top: 0;              
+    margin-bottom: 0;           
+    margin-left: auto;          
+    margin-right: auto;         
+}
+.footer img {
+    width: 50px;              
+}
+
+.footer {
+    background-color: #FFD700;  
+    position: absolute;         
+    bottom: 0;                  
+    left: 0;                    
+    width: 100%;                
+    text-align: center;         
+}
+
+.footer ul {
+    list-style-type: none;      
+    padding: 0;                 
+    margin: 0;                  
+}
+
+.footer li {
+    display: inline;            
+    margin: 0 10px;             
+}
+.cv img {
+    float: left;     
+    width: 60px;      
+    height: 60px;         
+    padding-right: 10px;       
+}
+.cv ul {
+    padding-left: 0;             
+}
+
+
+.cv li {
+    list-style-type: none;      
+    text-align: justify;         
+    border-bottom: 1px solid #FFD700; 
+    padding: 5px 0;             
+}
+
+
+.me {
+    text-align: justify;        
+}
+
+.me img {
+    float: left;                 
+    padding-right: 10px;       
+    width: 150px;            
+    height: auto;                
+}
+.courses {
+    list-style-type: none;        
+    padding-left: 0;              
+}
+
+
+.courses img {
+    float: left;                 
+    width: 170px;                
+    height: 210px;               
+    padding-right: 10px;         
+    padding-bottom: 10px;        
+}
+.courses li {
+    list-style-type: none;        
+    width: 900px;                  
+    height: 210px;              
+    margin-bottom: 10px;           
+    padding: 10px;               
+}
+
+
+form label, form input, form textarea {
+    display: block;            
+    width: 600px;               
+    margin-top: 5px;            
+    font-size: 20px;            
+}
+
+
+form input[type="button"] {
+    width: auto;                
+    font-size: 20px;            
+    margin-top: 20px;           
+}
+
+
+form input {
+    border: 1px solid #FFD700;   
+}
+
+
+form input[type="button"] {
+    height: 40px;               
+    font-size: 20px;             
+}
